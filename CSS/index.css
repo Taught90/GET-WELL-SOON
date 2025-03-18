@@ -46,7 +46,7 @@ body{
 img{
     width: 60%;
     opacity: 0;
-    transition:2s all ease-in-out;
+    transition:2.5s all ease-in-out;
 }
 
 
