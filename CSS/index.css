@@ -71,6 +71,11 @@ button:hover{
         width: 80%;
     }
     .introduction{
+        font-size: 72px;
+    }
+}
+@media (max-width:500px) {
+    .introduction{
         font-size: 60px;
     }
 }
