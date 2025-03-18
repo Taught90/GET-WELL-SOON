@@ -28,7 +28,7 @@ setTimeout(function(){
 },1000)
 setTimeout(function(){
     pookie.style.opacity = 1;
-},1500)
+},2000)
 setTimeout(function(){
     button.style.opacity = 1;
 },3500)
