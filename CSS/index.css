@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #0088d1;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: #ffffffc2;
+    font-family:cursive;
+    font-size: 82px;
+    font-weight: 700;
+    transition:2s all ease-in-out;
+}
+
+
+
+.H, .E, .L, .l, .O{
+    opacity: 0;
+    transition:.5s all ease-in-out;
+}
+
+.pookie, .button{
+    opacity: 0;
+    transition: 1s all ease-out ;
+}
+
+.content{
+    min-height: 100vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition:2s all ease-in-out;
+}
+
+img{
+    width: 60%;
+    opacity: 0;
+    transition:2s all ease-in-out;
+}
+
+
+button{
+    width: auto;
+    padding: 10px;
+    background: #ffff;
+    color: #db7500;
+    border: none;
+    margin: 0 10px;
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+@media (max-width:1024px) {
+    img{
+        width: 80%;
+    }
+    .introduction{
+        font-size: 52px;
+    }
+}
